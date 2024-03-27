@@ -1,0 +1,5 @@
+@media screen and (min-width: 1024px) {
+  .disabled-logo {
+    display: none;
+  }
+}

@@ -87,18 +87,18 @@
 <div class="">
 
   <div class="mb-5 flex justify-end">
-    <div class="inline-flex">
-      <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+    <div class="inline-flex ">
+      <button class="bg-gray-400 hover:bg-gray-500 border-r border-gray-300 text-gray-800  font-bold py-2 px-4 rounded-l"
         (click)="onNavigate('prev')" [disabled]="currentIndex === 0">
-        Prev
+        ❮
       </button>
-      <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r"
+      <button class="bg-gray-400 hover:bg-gray-500  text-gray-800 font-bold py-2 px-4 rounded-r"
         (click)="onNavigate('next')" [disabled]="currentIndex >= cards.length - 2">
-        Next
+        ❯
       </button>
     </div>
     <!-- <button class="btn btn-circle" (click)="onNavigate('prev')" [disabled]="currentIndex === 0">❮ </button> -->
-    <!-- <button class="btn btn-circle" (click)="onNavigate('next')" [disabled]="currentIndex >= cards.length - 2">❯</button> -->
+    <!-- <button class="btn btn-circle" (click)="onNavigate('next')" [disabled]="currentIndex >= cards.length - 2">❯❯</button> -->
   </div>
   <div class="flex gap-4 max-sm:flex-col">
 

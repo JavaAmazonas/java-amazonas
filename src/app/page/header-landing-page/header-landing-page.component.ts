@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './header-landing-page.component.html',
-  styleUrl: './header-landing-page.component.css'
+  styleUrl: './header-landing-page.component.css',
 })
 export class HeaderLandingPageComponent {
 
