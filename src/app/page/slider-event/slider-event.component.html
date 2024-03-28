@@ -87,8 +87,9 @@
 <div class="">
 
   <div class="mb-5 flex justify-end">
-    <div class="inline-flex ">
-      <button class="bg-gray-400 hover:bg-gray-500 border-r border-gray-300 text-gray-800  font-bold py-2 px-4 rounded-l"
+    <div class="inline-flex group">
+      <button
+        class="bg-gray-400 group-hover:border-none hover:bg-gray-500 border-r border-gray-300 text-gray-800  font-bold py-2 px-4 rounded-l"
         (click)="onNavigate('prev')" [disabled]="currentIndex === 0">
         ❮
       </button>
@@ -104,14 +105,21 @@
 
     <ng-container *ngFor="let card of cards.slice(currentIndex, currentIndex + 2); let i = index" class="">
       <div class="max-w-sm m-auto w-full lg:max-w-full lg:flex ">
-        <div
+        <!-- <div
           class="h-48 lg:h-auto lg:w-60 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
           [style.backgroundImage]="'url(' + card.imgPath + ')'" title="Imagem">
 
+        </div> -->
+        <div
+          class="h-48 lg:h-auto lg:w-60 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+          [style.backgroundSize]="'cover'" title="Imagem">
+          <img src="{{ card.imgPath}}" class="w-96 h-96" alt="">
         </div>
+
+
         <div
           class="border-r border-b border-l border-gray-300 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white dark:bg-gray-900 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-          <div class="mb-8">
+          <div class="mb-8 mt-1">
             <p class="text-sm text-gray-500 flex items-center">
               <svg class="fill-current text-gray-400 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20">
