@@ -22,7 +22,8 @@ export class SliderEventComponent {
   @Input() cards: any[] = [
       {
       id: 1,
-      typeMembro: 'Members only',
+      evento: true,
+      typeMembro: 'Ja acontedeu',
       Title: '1Can coffee make you a better developer?',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
       imgPath: '../../../assets/encontro.jpeg',
@@ -33,7 +34,8 @@ export class SliderEventComponent {
     },
     {
       id: 2,
-      typeMembro: 'Members only',
+      evento: true,
+      typeMembro: 'Ja aconteceu',
       Title: '2Can coffee make you a better developer?',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
       imgPath: '../../../assets/encontro2.jpeg',
@@ -43,7 +45,8 @@ export class SliderEventComponent {
     },
     {
       id: 3,
-      typeMembro: 'Members only',
+      evento: false,
+      typeMembro: 'Vai acontecer',
       Title: '3Can coffee make you a better developer?',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
       imgPath: '../../../assets/event-java.jpeg',
@@ -53,7 +56,8 @@ export class SliderEventComponent {
     },
     {
       id:4,
-      typeMembro: 'Members only',
+      evento: false,
+      typeMembro: 'Vai acontecer',
       Title: '4Can coffee make you a better developer?',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
       imgPath: '../../../assets/linux.jpeg',
@@ -68,9 +72,9 @@ export class SliderEventComponent {
 
   onNavigate(direction: string) {
     if (direction === 'next' && this.currentIndex < this.cards.length - 1) {
-      this.currentIndex++;
+      this.currentIndex+= 2 ;
     } else if (direction === 'prev' && this.currentIndex > 0) {
-      this.currentIndex--;
+      this.currentIndex-= 2;
     }
     this.navigate.emit(direction);
   }
