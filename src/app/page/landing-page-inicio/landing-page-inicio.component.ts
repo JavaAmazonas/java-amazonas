@@ -18,7 +18,7 @@ import { NgClass } from '@angular/common';
     SliderEventComponent,
     FontAwesomeModule,
     FormsModule,
-    NgClass
+    NgClass,
   ],
   templateUrl: './landing-page-inicio.component.html',
   styleUrl: './landing-page-inicio.component.css',
@@ -27,6 +27,7 @@ export class LandingPageInicioComponent {
   isOpen1 = false;
   isOpen2 = false;
   isOpen3 = false;
+
 
   toggleAccordion(panel: number) {
     switch (panel) {
