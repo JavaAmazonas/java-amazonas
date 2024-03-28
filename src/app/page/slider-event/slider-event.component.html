@@ -101,9 +101,9 @@
     <!-- <button class="btn btn-circle" (click)="onNavigate('prev')" [disabled]="currentIndex === 0">❮ </button> -->
     <!-- <button class="btn btn-circle" (click)="onNavigate('next')" [disabled]="currentIndex >= cards.length - 2">❯❯</button> -->
   </div>
-  <div class="flex gap-4 max-sm:flex-col">
+  <div class="flex gap-4 max-sm:flex-col ">
 
-    <ng-container *ngFor="let card of cards.slice(currentIndex, currentIndex + 2); let i = index" class="">
+    <ng-container *ngFor="let card of cards.slice(currentIndex, currentIndex + 2); let i = index" class="" >
       <div class="max-w-sm m-auto w-full lg:max-w-full lg:flex">
         <!-- <div
           class="h-48 lg:h-auto lg:w-60 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"

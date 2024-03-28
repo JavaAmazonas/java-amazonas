@@ -17,10 +17,11 @@ import { CommonModule } from '@angular/common';
   imports: [FormsModule, CommonModule],
   templateUrl: './slider-event.component.html',
   styleUrl: './slider-event.component.css',
+
 })
 export class SliderEventComponent {
   @Input() cards: any[] = [
-      {
+    {
       id: 1,
       evento: true,
       typeMembro: 'Ja acontedeu',
@@ -39,7 +40,7 @@ export class SliderEventComponent {
       Title: '2Can coffee make you a better developer?',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
       imgPath: '../../../assets/encontro2.jpeg',
-        imgAutor: '../../../assets/doke.png',
+      imgAutor: '../../../assets/doke.png',
       nomes: 'Samuelson',
       datas: 'Aug 18',
     },
@@ -50,18 +51,18 @@ export class SliderEventComponent {
       Title: '3Can coffee make you a better developer?',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
       imgPath: '../../../assets/event-java.jpeg',
-        imgAutor: '../../../assets/doke.png',
+      imgAutor: '../../../assets/doke.png',
       nomes: 'Samuelson',
       datas: 'Aug 18',
     },
     {
-      id:4,
+      id: 4,
       evento: false,
       typeMembro: 'Vai acontecer',
       Title: '4Can coffee make you a better developer?',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
       imgPath: '../../../assets/linux.jpeg',
-        imgAutor: '../../../assets/doke.png',
+      imgAutor: '../../../assets/doke.png',
       nomes: 'Samuelson',
       datas: 'Aug 18',
     },
@@ -72,84 +73,10 @@ export class SliderEventComponent {
 
   onNavigate(direction: string) {
     if (direction === 'next' && this.currentIndex < this.cards.length - 1) {
-      this.currentIndex+= 2 ;
+      this.currentIndex += 2;
     } else if (direction === 'prev' && this.currentIndex > 0) {
-      this.currentIndex-= 2;
+      this.currentIndex -= 2;
     }
     this.navigate.emit(direction);
-  }
-
-  arr: any[] = [
-    { id: 1, name: 'uno' },
-    { id: 2, name: 'uno' },
-    { id: 3, name: 'uno' },
-    { id: 4, name: 'uno' },
-    { id: 5, name: 'uno' },
-    { id: 6, name: 'uno' },
-    { id: 7, name: 'uno' },
-    { id: 8, name: 'uno' },
-    { id: 9, name: 'uno' },
-    { id: 10, name: 'uno' },
-  ];
-  totalCards: number = this.arr.length;
-  currentPage: number = 1;
-  pagePosition: string = '0%';
-  cardsPerPage!: number;
-  totalPages!: number;
-  overflowWidth!: string;
-  cardWidth!: string;
-  containerWidth!: number;
-  @ViewChild('container', { static: true, read: ElementRef })
-  container!: ElementRef;
-  @HostListener('window:resize') windowResize() {
-    let newCardsPerPage = this.getCardsPerPage();
-    if (newCardsPerPage != this.cardsPerPage) {
-      this.cardsPerPage = newCardsPerPage;
-      this.initializeSlider();
-      if (this.currentPage > this.totalPages) {
-        this.currentPage = this.totalPages;
-        this.populatePagePosition();
-      }
-    }
-  }
-
-  ngOnInit() {
-    this.cardsPerPage = 2; //this.getCardsPerPage();
-    this.initializeSlider();
-  }
-
-  initializeSlider() {
-    this.totalPages = Math.ceil(this.totalCards / this.cardsPerPage);
-    this.overflowWidth = `calc(${this.totalPages * 100}% + ${
-      (this.totalPages - 1) * 20
-    }px)`; // Adjust for spacing between pages
-    this.cardWidth = `calc(calc(50% - ${10 * this.cardsPerPage}px) / ${
-      this.cardsPerPage
-    })`;
-  }
-
-  // initializeSlider() {
-  //   this.totalPages = Math.ceil(this.totalCards / this.cardsPerPage);
-  //   this.overflowWidth = `calc(${this.totalPages * 100}% + ${
-  //     this.totalPages * 10
-  //   }px)`;
-  //   this.cardWidth = `calc((${100 / this.totalPages}% - ${
-  //     this.cardsPerPage * 10
-  //   }px) / ${this.cardsPerPage})`;
-  // }
-
-  getCardsPerPage() {
-    return Math.floor(this.container.nativeElement.offsetWidth / 200);
-  }
-
-  changePage(incrementor: number) {
-    this.currentPage += incrementor;
-    this.populatePagePosition();
-  }
-
-  populatePagePosition() {
-    this.pagePosition = `calc(${-100 * (this.currentPage - 1)}% - ${
-      10 * (this.currentPage - 1)
-    }px)`;
   }
 }

@@ -21,8 +21,11 @@
     "@angular/platform-browser-dynamic": "^17.3.0",
     "@angular/router": "^17.3.0",
     "@fortawesome/angular-fontawesome": "^0.14.1",
+    "@types/aos": "^3.0.7",
     "angular-font-awesome": "^3.1.2",
+    "aos": "^2.3.4",
     "rxjs": "~7.8.0",
+    "taos": "^1.0.5",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
   },
