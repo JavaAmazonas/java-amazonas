@@ -23,7 +23,7 @@ export class SliderEventComponent {
     {
       id: 1,
       evento: true,
-      typeMembro: 'Ja acontedeu',
+      typeMembro: 'Ja aconteceu',
       Title: 'Primeiro evento da comunidade',
       desc: 'Abertura e Boas-Vindas: Damos as boas-vindas a todos os participantes e introduzimos a comunidade Java',
       imgPath: '../../../assets/encontro.jpeg',
