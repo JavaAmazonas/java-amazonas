@@ -7,7 +7,10 @@ module.exports = {
   },
   purge: [
     './src/**/*.html'
-  ]
+  ],
+  plugins: [
+        require('flowbite/plugin')
+    ]
   // plugins: [require("taos/plugin")],
   // safelist: [
   //   "!duration-[0ms]",
