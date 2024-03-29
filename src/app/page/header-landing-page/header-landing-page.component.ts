@@ -1,4 +1,4 @@
-import { Component, ElementRef } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, input, Output } from '@angular/core';
 import { ButtonToggleDarkLightComponent } from '../button-toggle-dark-light/button-toggle-dark-light.component';
 import { NgClass } from '@angular/common';
 
@@ -14,7 +14,7 @@ export class HeaderLandingPageComponent {
   inicio() {
     document.getElementById('inicio')?.scrollIntoView({ behavior: 'smooth' });
     if (window.innerWidth < 10) {
-      this.removerHidden();
+      this.toggleMenu();
     }
     this.activeLink = 'inicio';
   }
@@ -23,14 +23,14 @@ export class HeaderLandingPageComponent {
       .getElementById('porqueJava')
       ?.scrollIntoView({ behavior: 'smooth' });
     if (window.innerWidth < 1024) {
-      this.removerHidden();
+      this.toggleMenu();
     }
     this.activeLink = 'porqueJava';
   }
   sobre() {
     document.getElementById('sobre')?.scrollIntoView({ behavior: 'smooth' });
     if (window.innerWidth < 1024) {
-      this.removerHidden();
+      this.toggleMenu();
     }
     this.activeLink = 'sobre'
      // Ativa a classe dark:text-white
@@ -39,23 +39,24 @@ export class HeaderLandingPageComponent {
   evento() {
     document.getElementById('evento')?.scrollIntoView({ behavior: 'smooth' });
     if (window.innerWidth < 1024) {
-      this.removerHidden();
+      this.toggleMenu();
     }
     this.activeLink = 'evento';
   }
   contato() {
     document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' });
     if (window.innerWidth < 1024) {
-      this.removerHidden();
+      this.toggleMenu();
     }
     this.activeLink = 'contato';
   }
 
   // Método para remover a classe 'hidden'
-  removerHidden() {
+  toggleMenu() {
     const mobileMenu = document.getElementById('mobile-menu-2');
     if (mobileMenu) {
       mobileMenu.classList.toggle('hidden');
     }
   }
+
 }

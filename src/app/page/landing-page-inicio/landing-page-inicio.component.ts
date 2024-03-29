@@ -1,4 +1,4 @@
-import { Component, ElementRef, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, OnInit, output, Output } from '@angular/core';
 import { HeaderLandingPageComponent } from '../header-landing-page/header-landing-page.component';
 import { FooterComponent } from '../footer/footer.component';
 import { SliderEventComponent } from '../slider-event/slider-event.component';
@@ -71,5 +71,10 @@ export class LandingPageInicioComponent {
       top: targetOffset,
       behavior: 'smooth', // Rola suavemente
     });
+  }
+   hideMenu: boolean = false;
+
+  updateHideMenu(newValue: boolean): void {
+    this.hideMenu = newValue;
   }
 }

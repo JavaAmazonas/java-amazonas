@@ -1,4 +1,4 @@
-<app-header-landing-page (click)="onThemeChange()"></app-header-landing-page>
+<app-header-landing-page></app-header-landing-page>
 <!-- Start block -->
 <style>
   .img-t {
@@ -53,15 +53,15 @@
               class="bi bi-discord w-4 h-4 mr-2 " viewBox="0 0 16 16">
               <path
                 d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612" />
-              <title>Figma.logo</title>
-              <desc>Created using Figma</desc>
+              <title>discord.logo</title>
+              <desc>Call using Discord</desc>
             </svg>
             <span class="dark:text-white ">Conecte-se no discord</span>
           </a>
         </div>
       </div>
       <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-        <img class="floating" src="../assets/java-jugle-comunidade (1).png" alt="hero image" height="">
+        <img class="floating" src="../assets/java_AM_no_sides.png" alt="hero image" height="">
       </div>
     </div>
   </div>
@@ -611,8 +611,8 @@
             </svg>
           </button> -->
           <button type="button" (click)="isOpen1 = !isOpen1" [attr.aria-expanded]="isOpen1 ? 'true' : 'false'"
-            [ngClass]="{'dark:text-gray-50': isOpen1}"
-            class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+            [ngClass]="{'text-gray-800 dark:text-gray-50': isOpen1}"
+            class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-600 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
             data-accordion-target="#accordion-flush-body-2" aria-expanded="false"
             aria-controls="accordion-flush-body-2">
             <span>Como posso participar ou ate contribuir?</span>
@@ -627,14 +627,21 @@
         <div id="accordion-flush-body-1" [ngClass]="{'hidden': !isOpen1}" class=""
           aria-labelledby="accordion-flush-heading-1">
           <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400">Essa é fácil entre no nosso grupo e saiba mais <a
-                class="text-green-600 dark:text-green-500 hover:underline">link</a></p>
+            <p class="mb-2 text-gray-600 dark:text-gray-400">Essa é fácil entre no nosso grupo e saiba mais <a
+                class="text-green-600 dark:text-green-500 hover:underline"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right inline-block"
+                  viewBox="0 0 20 20">
+                  <path fill-rule="evenodd"
+                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
+                  <path fill-rule="evenodd"
+                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
+                </svg></a></p>
           </div>
         </div>
         <h3 id="accordion-flush-heading-2">
           <button type="button" (click)="isOpen2 = !isOpen2" [attr.aria-expanded]="isOpen2 ? 'true' : 'false'"
-            [ngClass]="{'dark:text-gray-50': isOpen2}"
-            class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+            [ngClass]="{'text-gray-800 dark:text-gray-50': isOpen2}"
+            class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-600 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
             data-accordion-target="#accordion-flush-body-2" aria-expanded="false"
             aria-controls="accordion-flush-body-2">
             <span>Quanto vai ter eventos, aulas ou palestra?</span>
@@ -648,14 +655,21 @@
         </h3>
         <div id="accordion-flush-body-2" [ngClass]="{'hidden': !isOpen2}" aria-labelledby="accordion-flush-heading-2">
           <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400">Fique de olho no nosso grupo no discord é la que ocorre a
-              maioria do <a eventos class="text-green-600 dark:text-green-500 hover:underline">Link</a>.</p>
+            <p class="mb-2 text-gray-600 dark:text-gray-400">Fique de olho no nosso grupo no discord é la que ocorre a
+              maioria dos eventos <a class="text-green-600 dark:text-green-500 hover:underline"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-box-arrow-up-right inline-block" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd"
+                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
+                  <path fill-rule="evenodd"
+                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
+                </svg></a></p>
           </div>
         </div>
         <h3 id="accordion-flush-heading-3">
           <button type="button" (click)="isOpen3 = !isOpen3" [attr.aria-expanded]="isOpen3 ? 'true' : 'false'"
-            [ngClass]="{'dark:text-gray-50': isOpen3}"
-            class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+            [ngClass]="{'text-gray-800 dark:text-gray-50': isOpen3}"
+            class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-600 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
             data-accordion-target="#accordion-flush-body-3" aria-expanded="false"
             aria-controls="accordion-flush-body-3">
             <span>Pensamos em expandir a comunidade?</span>
@@ -670,7 +684,7 @@
         <div id="accordion-flush-body-3" [ngClass]="{'hidden': !isOpen3}" class="hidden"
           aria-labelledby="accordion-flush-heading-3">
           <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400">A resposta é sim, queremos criar um ecossistema de
+            <p class="mb-2 text-gray-600 dark:text-gray-400">A resposta é sim, queremos criar um ecossistema de
               comunidades de desenvolvedores na Amazonia. Dessa forma, não queremos apenas evangelizar nosso querido
               Java, mas mostrar o quão grande é esse guarda-chuva, incluindo Linux, JavaScript, AWS e muito mais além da
               sopa de letrinhas com devOps,Full-stack, Front-end, Back-end, Hacker... Depende apenas de nós colaborarmos
@@ -786,4 +800,3 @@
   </div>
 </section>
 <app-footer></app-footer>
-<!-- <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script> -->
