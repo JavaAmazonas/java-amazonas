@@ -5,12 +5,12 @@
         <img src="../assets/logo-java-jugle.png" class="h-6 mr-3 sm:h-9 disabled-logo" alt="Java juble Logo" />
       </a>
       <div class="flex items-center lg:order-2">
-        <app-button-toggle-dark-light></app-button-toggle-dark-light>
-        <!-- <div class="hidden mt-2 mr-4 sm:inline-block"> -->
-          <!-- <a class="github-button" href="https://github.com/JavaAmazonas/java-amazonas" data-size="large"
+        <!-- <div class="hidden mt-2 mr-4 sm:inline-block">
+          <app-button-toggle-dark-light></app-button-toggle-dark-light>
+          <a class="github-button" href="https://github.com/JavaAmazonas/java-amazonas" data-size="large"
             data-icon="octicon-star" data-show-count="true"
-            aria-label="Star JavaAmazonas/java-amazonas on GitHub">Star</a> -->
-        <!-- </div> -->
+            aria-label="Star JavaAmazonas/java-amazonas on GitHub">Star</a>
+        </div> -->
         <!-- <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a> -->
         <!-- <a href="https://themesberg.com/product/tailwind-css/landing-page"
           class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800">Download</a> -->
@@ -34,7 +34,7 @@
         <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
           <li>
             <a (click)="inicio()"
-              [ngClass]="activeLink === 'inicio' ? 'max-lg:bg-green-700 text-white lg:text-green-700 dark:text-white ':' hover:bg-gray-200 hover:text-gray-950  dark:text-gray-400  dark:hover:bg-gray-700'"
+              [ngClass]="activeLink === 'inicio' ? 'max-lg:bg-green-700 text-white lg:text-green-700 dark:text-white ':' max-lg:hover:bg-gray-200 hover:text-gray-950  dark:text-gray-400  max-lg:dark:hover:bg-gray-700'"
               class="nav-link block cursor-pointer py-2 pl-3 pr-4 text-whiterounded text-gray-700 lg:bg-transparent  lg:p-0 dark:hover:text-white"
               aria-current="page">Início</a>
           </li>
