@@ -54,17 +54,18 @@ section {
     scale: 1 1;
   }
 }
-::-webkit-scrollbar {
+
+/* ::-webkit-scrollbar {
   background: currentcolor;
-  width: 10px;
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
   background: currentcolor;
 }
 ::-webkit-scrollbar-thumb {
-  background: #fff;
+  background: #fefefe;
   border-radius: 10px;
-}
+} */
 
 /* .c-indicator {
   margin-top: 50px;
