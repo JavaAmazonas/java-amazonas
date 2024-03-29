@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit } from '@angular/core';
+import { Component, ElementRef, EventEmitter, OnInit, Output } from '@angular/core';
 import { HeaderLandingPageComponent } from '../header-landing-page/header-landing-page.component';
 import { FooterComponent } from '../footer/footer.component';
 import { SliderEventComponent } from '../slider-event/slider-event.component';
@@ -30,6 +30,12 @@ export class LandingPageInicioComponent {
   isOpen1 = false;
   isOpen2 = false;
   isOpen3 = false;
+  // @Output() themeChange = new EventEmitter<string>(); // Emite o tema atual
+  novo:any
+  theme: any ='dark'== localStorage.getItem('theme');
+  onThemeChange() {
+    this.novo= 'light';
+  }
   // ngOnInit() {
   //   AOS.init({ disable: 'mobile' }); //AOS - 2
   //   AOS.refresh(); //refresh method is called on window resize and so on, as it doesn't require to build new store with AOS elements and should be as light as possible.
@@ -50,7 +56,9 @@ export class LandingPageInicioComponent {
     }
   }
 
-  constructor(private el: ElementRef) {}
+  constructor(private el: ElementRef) {
+    console.log(this.theme);
+  }
 
   // Método para lidar com o clique no link
   scrollToTarget() {

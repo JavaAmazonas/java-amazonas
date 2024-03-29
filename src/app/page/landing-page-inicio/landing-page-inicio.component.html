@@ -1,45 +1,69 @@
-<app-header-landing-page></app-header-landing-page>
+<app-header-landing-page (click)="onThemeChange()"></app-header-landing-page>
 <!-- Start block -->
-<section class="bg-zinc-300 dark:bg-gray-900" id="inicio">
-  <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-    <div class="mr-auto place-self-center lg:col-span-7">
-      <p class=" font-light text-zinc-600 dark:text-gray-500">Alô programador (a) Java! Conheça a</p>
-      <h1
-        class="in-left max-w-2xl lb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white z-0">
-        Comunidade<br>Java Amazonas</h1>
-      <p class="mt-2 max-w-2xl mb-6 font-light text-zinc-600 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">A
-        comunidade
-        foi criada na<a href="https://brasil.campus-party.org/cpamazonia/" class="hover:underline">Campus Party
-          Amazônia</a>, e ela mesma é uma excelente maneira de se conectar, comunicar e colaborar com outros
-        desenvolvedores, compartilhando seus conhecimentos com o objetivo de expandir a experiência em Tecnologia.</p>
-      <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-        <a href="https://github.com/JavaAmazonas/" target="_blank"
-          class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-          <svg class="w-4 h-4 mr-2 text-gray-300 dark:text-gray-500 dark:bg-gray-400 dark:rounded-full"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 496 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
-            <path
-              d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-          </svg> View on GitHub
+<style>
+  .img-t {
+    background-image: url('../../../assets/output-onlinepngtools.png');
+    background-size: cover;
+    /* filter: brightness(50%); */
+  }
 
-        </a>
-        <a href="https://www.figma.com/file/xRz0DlpnCmCig387Musupw/Comunidade-Java-Amazonas?type=design&node-id=94-7&mode=design&t=IQZIc6jDL7w3j9zp-0"
-          target="_blank"
-          class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-discord w-4 h-4 mr-2 " viewBox="0 0 16 16">
-            <path
-              d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612" />
+  .img-t::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* max-width: 200% !important; */
+    opacity: .3 !important;
 
-            <title>Figma.logo</title>
-            <desc>Created using Figma</desc>
-          </svg>
-          <span class="dark:text-white ">Conecte-se no discord</span>
-        </a>
+    height: 100%;
+    /* background-color: rgb(128, 128, 128, 0.9); */
+  }
+
+  .dark:img-t-dark {
+    /* @apply bg-no-repeat bg-center bg-cover; */
+    background-image: none;
+  }
+</style>
+<section class="bg-zinc-300 dark:bg-gray-900 relative" id="inicio">
+  <div class="">
+    <div class="max-w-screen-xl grid px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28 z-10">
+      <div class="mr-auto place-self-center lg:col-span-7 ">
+        <p class=" font-light text-zinc-600 dark:text-gray-500">Alô programador (a) Java! Conheça a</p>
+        <h1
+          class="in-left max-w-2xl lb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white z-0">
+          Comunidade<br>Java Amazonas</h1>
+        <p class="mt-2 max-w-2xl mb-6 font-light text-zinc-600 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">A
+          comunidade
+          foi criada na<a href="https://brasil.campus-party.org/cpamazonia/" class="hover:underline">Campus Party
+            Amazônia</a>, e ela mesma é uma excelente maneira de se conectar, comunicar e colaborar com outros
+          desenvolvedores, compartilhando seus conhecimentos com o objetivo de expandir a experiência em Tecnologia.</p>
+        <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+          <a href="https://github.com/JavaAmazonas/" target="_blank"
+            class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+            <svg class="w-4 h-4 mr-2  text-gray-300 dark:text-gray-500 dark:bg-gray-400 dark:rounded-full"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 496 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+              <path
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+            </svg> View on GitHub
+          </a>
+          <a href="https://www.figma.com/file/xRz0DlpnCmCig387Musupw/Comunidade-Java-Amazonas?type=design&node-id=94-7&mode=design&t=IQZIc6jDL7w3j9zp-0"
+            target="_blank"
+            class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-discord w-4 h-4 mr-2 " viewBox="0 0 16 16">
+              <path
+                d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612" />
+              <title>Figma.logo</title>
+              <desc>Created using Figma</desc>
+            </svg>
+            <span class="dark:text-white ">Conecte-se no discord</span>
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-      <img class="floating" src="../assets/java-jugle-comunidade (1).png" alt="hero image" height="">
+      <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+        <img class="floating" src="../assets/java-jugle-comunidade (1).png" alt="hero image" height="">
+      </div>
     </div>
   </div>
 </section>
@@ -184,12 +208,11 @@
       <!-- Row -->
       <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
         <div class="text-zinc-600 sm:text-lg dark:text-gray-400">
-          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white" >Por que aprender Java?
+          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Por que aprender Java?
           </h2>
-          <p class="mb-8 font-light lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
-            repellendus soluta sed non iusto, dolores, vel aliquid perspiciatis nulla animi dolorem dignissimos
-            blanditiis
-            debitis ipsum a molestias! Mollitia, sapiente nisi?</p>
+          <p class="mb-8 font-light lg:text-xl">Essa pergunta é um pouco difícil, não é só pelo poder da linguagem de
+            multiplataforma, nem pela quantidade de vagas disponíveis, mesmo que isso seja muito bom, não é? - mas
+            principalmente pela comunidade que cresce a cada dia.</p>
           <!-- List -->
           <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
             <li class="flex space-x-3">
@@ -238,9 +261,14 @@
         <div class="text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Venha ser feliz com
             qualquer linguagem</h2>
-          <p class="mb-8 font-light lg:text-xl">Deliver great service experiences fast - without the complexity of
-            traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with
-            ease.</p>
+          <p class="mb-8 font-light lg:text-xl">Em um mundo cada vez mais
+            conectado e diverso, a linguagem de programação se torna o elo que une diferentes culturas, mentes e
+            ideias. Independentemente de qual linguagem você escolha aprender ou dominar, o convite é para que você
+            se junte a uma comunidade global de entusiastas, desenvolvedores e criadores, onde a criatividade e a
+            inovação são celebradas em todas as suas formas. Seja você um apaixonado por Python, um entusiasta de
+            JavaScript, um adepto do C++, ou mesmo um explorador de novas linguagens emergentes, há um espaço para
+            você neste vasto e emocionante universo da programação. Linguagens são ferramentas seja livre para escolha a
+            sua 😁</p>
           <!-- List -->
           <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
             <li class="flex space-x-3">
@@ -251,8 +279,7 @@
                   d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                   clip-rule="evenodd"></path>
               </svg>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Dynamic reports and
-                dashboards</span>
+              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Versatilidade</span>
             </li>
             <li class="flex space-x-3">
               <!-- Icon -->
@@ -262,8 +289,7 @@
                   d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                   clip-rule="evenodd"></path>
               </svg>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Templates for
-                everyone</span>
+              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Inovação</span>
             </li>
             <li class="flex space-x-3">
               <!-- Icon -->
@@ -273,8 +299,7 @@
                   d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                   clip-rule="evenodd"></path>
               </svg>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Development
-                workflow</span>
+              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Colaboração</span>
             </li>
             <li class="flex space-x-3">
               <!-- Icon -->
@@ -284,8 +309,7 @@
                   d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                   clip-rule="evenodd"></path>
               </svg>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Limitless business
-                automation</span>
+              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Oportunidades</span>
             </li>
             <li class="flex space-x-3">
               <!-- Icon -->
@@ -295,13 +319,13 @@
                   d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                   clip-rule="evenodd"></path>
               </svg>
-              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Knowledge
-                management</span>
+              <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Paixão</span>
             </li>
           </ul>
-          <p class="font-light lg:text-xl">Deliver great service experiences fast - without the complexity of
-            traditional
-            ITSM solutions.</p>
+          <p class="font-light lg:text-xl">Na programação, não importa qual linguagem você use, o importante é se
+            apaixonar pelo processo de criação e solução de problemas. Se até as variáveis precisam ser declaradas
+            porque não me declarar para
+            o java? 😏</p>
         </div>
       </div>
     </div>
@@ -316,14 +340,14 @@
       <p class="text-lg font-medium text-green-600 dark:text-green-500">Hello world</p>
       <h2 class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">Sobre a
         comunidade Java Amazonas</h2>
-      <p class="font-light text-zinc-600 sm:text-xl dark:text-gray-400">"Java User Groups (JUGs) são organizações
+      <p class="font-light text-zinc-600 sm:text-xl dark:text-gray-400">Java User Groups (JUGs) são organizações
         voluntárias que se esforçam para distribuir conhecimento relacionado a Java em todo o mundo. Eles fornecem um
         ponto de encontro para os usuários Java obterem informações, compartilharem recursos e soluções, aumentarem o
         networking, expandirem o conhecimento da tecnologia Java e, acima de tudo, se esforçarem para construir uma
         comunidade mais inclusiva. JUGs são o ponto de encontro para a comunidade Java se conectar, comunicar e
-        colaborar com colegas desenvolvedores."
+        colaborar com colegas desenvolvedores.
         A comunidade Java Amazonas é um JUG (Java User Group), que são organizações voluntárias que se dedicam a
-        compartilhar conhecimento sobre Java em todo o mundo.</p>
+        compartilhar conhecimento sobre Java em todo o mundo veja no link a abaixo todas as comunidades java.</p>
       <div class="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
         <div>
           <a href="https://dev.java/community/jugs/" target="_blank"
@@ -427,9 +451,10 @@
       <h2 class="text-4xl tracking-tight font-bold text-primary-800">Mas por que participar de uma
         comunidade?
       </h2>
-      <p class="mt-3">"Participar de um grupo de usuários Java é uma ótima maneira de se conectar, comunicar e colaborar
+      <p class="mt-3 text-gray-600 dark:text-gray-400 ">Participar de um grupo de usuários Java é uma ótima maneira de
+        se conectar, comunicar e colaborar
         com seus colegas desenvolvedores. Os JUGs podem ser encontrados em quase todos os continentes, com encontros
-        regulares." Site do Java (https://dev.java/community/jugs/)</p>
+        regulares.</p>
     </div>
 
     <div class="flex flex-col md:flex-row">
@@ -443,27 +468,31 @@
         <div class="w-full sm:w-1/2 mb-4 px-2 ">
           <div class="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
             <h3 class="text-2xl font-bold text-md mb-6">Networking:</h3>
-            <p class="text-sm">Conecte-se com outros desenvolvedores Java da sua região.</p>
+            <p class="text-sm text-gray-600 dark:text-gray-400">Conecte-se com outros desenvolvedores Java da sua
+              região.</p>
           </div>
         </div>
         <div class="w-full sm:w-1/2 mb-4 px-2 ">
           <div class="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
             <h3 class="text-2xl font-bold text-md mb-6">Compartilhamento de experiências</h3>
-            <p class="text-sm">Aprenda com outros profissionais e compartilhe seus conhecimentos.</p>
+            <p class="text-sm text-gray-600 dark:text-gray-400">Aprenda com outros profissionais e compartilhe seus
+              conhecimentos.</p>
           </div>
         </div>
 
         <div class="w-full sm:w-1/2 mb-4 px-2 ">
           <div class="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
             <h3 class="text-2xl font-bold text-md mb-6">Fortalecimento</h3>
-            <p class="text-sm">Ajude a construir uma comunidade Java vibrante em Manaus.</p>
+            <p class="text-sm text-gray-600 dark:text-gray-400">Ajude a construir uma comunidade Java vibrante em
+              Manaus.</p>
           </div>
         </div>
 
         <div class="w-full sm:w-1/2 mb-4 px-2 ">
           <div class="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
             <h3 class="text-2xl font-bold text-md mb-6">Compartilhamento</h3>
-            <p class="text-sm">Acesse palestras, workshops e outros eventos sobre as últimas tecnologias Java.</p>
+            <p class="text-sm text-gray-600 dark:text-gray-400">Acesse palestras, workshops e outros eventos sobre as
+              últimas tecnologias Java.</p>
           </div>
         </div>
 
