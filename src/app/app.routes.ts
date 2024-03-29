@@ -4,5 +4,6 @@ import { NotFoundComponent } from './not-found/not-found.component';
 
 export const routes: Routes = [
   {path: '', component: LandingPageInicioComponent},
+  // {path: 'porqueJava',component:}
   {path: '**', component:NotFoundComponent }
 ];

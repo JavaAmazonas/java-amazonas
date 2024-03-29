@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import { HeaderLandingPageComponent } from '../header-landing-page/header-landing-page.component';
 import { FooterComponent } from '../footer/footer.component';
 import { SliderEventComponent } from '../slider-event/slider-event.component';
@@ -26,7 +26,7 @@ import { NgClass } from '@angular/common';
   templateUrl: './landing-page-inicio.component.html',
   styleUrl: './landing-page-inicio.component.css',
 })
-export class LandingPageInicioComponent  {
+export class LandingPageInicioComponent {
   isOpen1 = false;
   isOpen2 = false;
   isOpen3 = false;
@@ -48,5 +48,20 @@ export class LandingPageInicioComponent  {
       default:
         break;
     }
+  }
+
+  constructor(private el: ElementRef) {}
+
+  // Método para lidar com o clique no link
+  scrollToTarget() {
+    // Obtém a posição do elemento de destino
+    const targetElement = this.el.nativeElement.querySelector('#targetElement');
+    const targetOffset = targetElement.offsetTop - 400; // 400px da parte superior da página
+
+    // Rola a página para a posição do elemento de destino
+    window.scrollTo({
+      top: targetOffset,
+      behavior: 'smooth', // Rola suavemente
+    });
   }
 }
