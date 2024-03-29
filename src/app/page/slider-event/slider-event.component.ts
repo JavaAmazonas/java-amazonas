@@ -28,7 +28,7 @@ export class SliderEventComponent {
       desc: 'Abertura e Boas-Vindas: Damos as boas-vindas a todos os participantes e introduzimos a comunidade Java',
       imgPath: '../../../assets/encontro.jpeg',
       imgAutor: '../../../assets/doke.png',
-      link: 'https://github.com/',
+      link: 'https://discord.com/invite/drYCpFH75g',
       nomes: 'Samuelson',
       datas: 'Janeiro 20, 2024 - online',
     },
@@ -41,6 +41,7 @@ export class SliderEventComponent {
       imgPath: '../../../assets/encontro2.jpeg',
       imgAutor: '../../../assets/doke.png',
       nomes: 'Samuelson',
+      link: 'https://github.com/Elian-beep/appstore',
       datas: 'Janeiro 25, 2024 - online',
     },
     {
