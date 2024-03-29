@@ -35,7 +35,7 @@ export class SliderEventComponent {
     {
       id: 2,
       evento: true,
-      typeMembro: 'Ja aconteceu - 2Workshop',
+      typeMembro: 'Ja aconteceu - Workshop',
       Title: 'Como funcionar um api no mundo do Java',
       desc: 'Introdução às APIs: Entenda o que são APIs, por que são essenciais no desenvolvimento de software e como funcionam dentro do ecossistema Java e ganhando produtivade com Spring ',
       imgPath: '../../../assets/encontro2.jpeg',
