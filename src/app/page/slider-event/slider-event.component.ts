@@ -30,7 +30,7 @@ export class SliderEventComponent {
       imgAutor: '../../../assets/doke.png',
       link: 'https://discord.com/invite/drYCpFH75g',
       nomes: 'Samuelson',
-      datas: 'Janeiro 20, 2024 - online',
+      datas: 'Novembro 20, 2023 - online',
     },
     {
       id: 2,
@@ -42,7 +42,7 @@ export class SliderEventComponent {
       imgAutor: '../../../assets/doke.png',
       nomes: 'Samuelson',
       link: 'https://github.com/Elian-beep/appstore',
-      datas: 'Janeiro 25, 2024 - online',
+      datas: 'Janeiro 19, 2024 - online',
     },
     {
       id: 3,
