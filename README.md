@@ -5,7 +5,7 @@
 [![License: GPL 3](https://img.shields.io/badge/license-GPLv3-blue)](https://www.gnu.org/licenses/gpl-3.0.pt-br.html)
 [![Software Livre Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-#### _Mais de milhões de comunidades Java espalhadas pelo mundo [other languages](translations/Translations.md)._
+#### _Mais de 1m Javazeiros espalhadas pelo mundo [other languages](translations/Translations.md). <a href="https://dev.java/community/jugs/">Link</a>
 
 <kbd>[<img title="Shqip" alt="Shqip" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/al.svg" width="22">](translations/README.al.md)</kbd>
 <kbd>[<img title="Armenian" alt="Armenian" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/am.svg" width="22">](translations/README.arm.md)</kbd>
@@ -84,209 +84,60 @@
 <kbd>[<img title="Ewe (TOGO)" alt="Ewe (TOGO)" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/tg.svg" width="22">](translations/README.ewe.md)</kbd>
 <kbd>[<img title="አማርኛ" alt="አማርኛ" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/et.svg" width="22">](translations/README.et.md)</kbd>
 
-<div align="center">
-
-  ![java_AM_no_sides](https://github.com/JavaAmazonas/java-amazonas/assets/99563281/32d2c100-29f9-42f1-a49b-58ffcc678dd5)
-
-</div>
+<p align="center">
+  <img width="250" src="https://github.com/JavaAmazonas/java-amazonas/assets/99563281/32d2c100-29f9-42f1-a49b-58ffcc678dd5" alt="java_AM_no_sides">
+</p>
 
 <p align="center">
   <i align="center">Web site da comunidade Java Amazonas 🚀</i>
 </p>
 
 <h4 align="center">
-  <a href="https://github.com/amplication/amplication/actions/workflows/ci.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/amplication/amplication/ci.yml?branch=master&label=pipeline&style=flat-square" alt="continuous integration" style="height: 20px;">
-  </a>
-  <a href="https://github.com/amplication/amplication/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors-anon/amplication/amplication?color=yellow&style=flat-square" alt="contributors" style="height: 20px;">
-  </a>
-  <a href="https://opensource.org/licenses/Apache-2.0">
-    <img src="https://img.shields.io/badge/apache%202.0-blue.svg?style=flat-square&label=license" alt="license" style="height: 20px;">
-  </a>
-  <br>
-  <a href="https://amplication.com/discord">
+  <a href="https://discord.com/invite/drYCpFH75g">
     <img src="https://img.shields.io/badge/discord-7289da.svg?style=flat-square&logo=discord" alt="discord" style="height: 20px;">
   </a>
-  <a href="https://twitter.com/amplication">
-    <img src="https://img.shields.io/twitter/follow/amplication?style=social" alt="twitter" style="height: 20px;">
   </a>
-  <a href="https://www.youtube.com/c/Amplicationcom">
+  <a href=https://www.youtube.com/@JavaAmazonas">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
   </a>
 </h4>
 
 
 
-<div align="center">
+<div align="center" style>
   
   ![Captura de tela de 2024-03-31 10-27-10](https://github.com/JavaAmazonas/java-amazonas/assets/99563281/d0b733e3-ba70-43ee-a8d7-a15e91077a9d)
 
 </div>
 
-## Introduction
 
-`Amplication` is a robust, open-source development platform designed to revolutionize the creation of scalable and secure Node.js applications. We eliminate repetitive coding tasks and deliver production-ready infrastructure code, meticulously tailored to your specifications and adhering to industry best practices.
-
-Our user-friendly interface fosters seamless integration of APIs, data models, databases, authentication, and authorization. Built on a flexible, plugin-based architecture, Amplication allows effortless customization of the code and offers a diverse range of integrations.
-
-With a strong focus on collaboration, Amplication streamlines team-oriented development, making it an ideal choice for groups of all sizes, from startups to large enterprises. Our platform enables you to concentrate on your business logic, while we handle the heavy lifting.
-
-Experience the fastest way to develop Node.js applications with Amplication.
-
-<details open>
-<summary>
- Features
-</summary> <br />
-
-<p align="center">
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/9908a54a-7d49-4dbb-8f5e-3e99b7cadf30.png" alt="apis"/>
-&nbsp;
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/ff406403-27f7-42b5-9569-d011432f16e5.png" alt="data-models"/>
-</p>
-
-<p align="center">
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/62c8d533-8475-4290-abc8-c433c095e68a.png" alt="plugins"/>
-&nbsp;
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/9c67a354-a06f-47d1-a118-ab89b775bf91.png" alt="microservices"/>
-</p> 
-    
-<p align="center">
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/a51e166b-07ec-4c80-99ed-8792a81c4064.png" alt="own-your-code"/>
-&nbsp;
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/1cca9721-b8d6-425b-a1a9-d10d3cdcc9b8.png" alt="customize-code"/>
-</p>
-    
-</details>
-
-## Usage 
-
-To get started with Amplication, the hosted version of the product can be used. You can get started immediately at [app.amplication.com](https://app.amplication.com). After the login page, you will be guided through creating your first service. The [website](https://amplication.com) provides an overview of the application, additional information on the product and guides can be found in the [docs](https://docs.amplication.com).
-
-<details>
-<summary>
-  Tutorials
-</summary> <br />
-
-- [To-do application using Amplication and Angular](https://docs.amplication.com/tutorials/angular-todos)
-- [To-do application using Amplication and React](https://docs.amplication.com/tutorials/react-todos)
-</details>
-
-## Development
-
-Alternatively, instead of using the hosted version of the product, Amplication can be run locally for code generation purposes or contributions - if so, please refer to our [contributing](#contributing_anchor) section.
-
-<details open>
-<summary>
-Pre-requisites
-</summary> <br />
-To be able to start development on Amplication, make sure that you have the following prerequisites installed:
-
-###
-
-- Node.js
-- Docker
-- Git
-</details>
-
-<details open>
-<summary>
-Running Amplication
-</summary> <br />
-
-> **Note**
-> It is also possible to start development with GitHub Codespaces, when navigating to `< > Code`, select `Codespaces` instead of `Local`. Click on either the `+`-sign or the `Create codespace on master`-button.
-
-Amplication is using a monorepo architecture - powered by <a href="https://nx.dev">Nx Workspaces</a> - where multiple applications and libraries exist in a single repository. To setup a local development environment the following steps can be followed:
-
-**BEFORE** you run the following steps make sure:
-1. You have typescript installed locally on you machine ```npm install -g typescript```
-2. You are using a supported node version (check `engines` `node` in the [package.json](./package.json))
-3. You are using a supported npm version (check `engines` `npm` in the [package.json](./package.json))
-4. You have `docker` installed and running on your machine
-
-
-1. Clone the repository and install dependencies:
-```shell
-git clone https://github.com/amplication/amplication.git && cd amplication && npm install
-```
-
-2. Run the setup script, which takes care of installing dependencies, building packages, and setting up the workspace:
-```shell
-npm run setup:dev
-```
-
-3. Option 1: Running the required infrastructure - view infrastructure component logs
-
-
-```shell
-npm run docker:dev
-```
-3. Option 2: Running the required infrastructure - run the infrastructure components in background
-```shell
-npm run docker:dev -- -d
-```
-
-4. Apply database migrations
-```shell
-npm run db:migrate:deploy
-```
-
-5. To start developing, run one or more of the applications available under `serve:[application]` scripts of the package.json.
-
-```shell
-# running the server component
-npm run serve:server
-
-# running the client component
-npm run serve:client
-
-# running the data-service-generator component
-npm run serve:dsg
-
-# running the git-sync-manager component
-npm run serve:git
-
-# running the plugin-api component
-npm run serve:plugins
-```
-
-> **Note**
-> In order to run the Amplication client properly, both the client and server need to be started by the `npm run serve:[application]` command, as well as an additional component for development on a specific component.
-
-The development environment should now be set up. Additional information on the different application components can be found under packages/`[application]`/README.md file. Happy hacking! 👾
-</details>
 
 ## Resources
 
-- **[Website](https://amplication.com)** overview of the product.
-- **[Docs](https://docs.amplication.com)** for comprehensive documentation.
-- **[Blog](https://amplication.com/blog)** for guides and technical comparisons.
-- **[Roadmap](https://amplication.com/#roadmap)** to see what features will be added in the future.
-- **[Discord](https://amplication.com/discord)** for support and discussions with the community and the team.
-- **[GitHub](https://github.com/amplication/amplication)** for source code, project board, issues, and pull requests.
-- **[Twitter](https://twitter.com/amplication)** for the latest updates on the product and published blogs.
-- **[YouTube](https://www.youtube.com/c/Amplicationcom)** for guides and technical talks.
 
+- **[Discord](https://www.youtube.com/@JavaAmazonas)** pelo apoio e discussões com a comunidade e a equipe e eventos
+- **[GitHub](https://github.com/JavaAmazonas/java-amazonas)** para código-fonte, quadro de projeto, problemas e solicitações pull.
+- **[YouTube](https://www.youtube.com/@JavaAmazonas)** Canal.
+- **[Whatsapp](https://chat.whatsapp.com/BwsPEqCdhw47JSKWRT6JF9)** Grupo da comunidade.
+- **[Instagram](https://www.instagram.com/javaamazonas)** 
 <a name="contributing_anchor"></a>
 ## Contributing
 
-Amplication is an open-source project. We are committed to a fully transparent development process and highly appreciate any contributions. Whether you are helping us fix bugs, proposing new features, improving our documentation or spreading the word - we would love to have you as a part of the Amplication community. Please refer to our [contribution guidelines](./CONTRIBUTING.md) and [code of conduct](./CODE_OF_CONDUCT.md).
+Java Amazonas web é um projeto de código livre. Estamos comprometidos com um processo de desenvolvimento totalmente transparente e apreciamos muito qualquer contribuição. Esteja você nos ajudando a corrigir bugs, propondo novos recursos, melhorando nossa documentação ou divulgando - adoraríamos tê-lo como parte da comunidade Java Amazonas.  Consulte nossas... a ideia futuramente criar um blog.
 
-- Bug Report: If you see an error message or encounter an issue while using Amplication, please create a [bug report](https://github.com/amplication/amplication/issues/new?assignees=&labels=type%3A+bug&template=bug.yaml&title=%F0%9F%90%9B+Bug+Report%3A+).
+- Relatório de bug: se você vir uma mensagem de erro ou encontrar um problema ao usar o Amplication, crie um [bug report](https://github.com/JavaAmazonas/java-amazonas/issues/new?assignees=&labels=type%3A+bug&template=bug.yaml&title=%F0%9F%90%9B+Bug+Report%3A+).
 
-- Feature Request: If you have an idea or if there is a capability that is missing and would make development easier and more robust, please submit a [feature request](https://github.com/amplication/amplication/issues/new?assignees=&labels=type%3A+feature+request&template=feature.yml).
+- Solicitação de recurso: se você tiver uma ideia ou se faltar um recurso que tornaria o desenvolvimento mais fácil e robusto, envie uma [feature request](https://github.com/JavaAmazonas/java-amazonas/issues/new?assignees=&labels=type%3A+feature+request&template=feature.yml).
 
-- Documentation Request: If you're reading the Amplication docs and feel like you're missing something, please submit a [documentation request](https://github.com/amplication/amplication/issues/new?assignees=&labels=type%3A+docs&template=documentation-request.yaml&title=%F0%9F%93%96+Documentation%3A+).
 
-Not sure where to start? Join our discord and we will help you get started!
+Não sabe por onde começar?  Junte-se ao nosso discord e nós o ajudaremos a começar!
 
-<a href="https://amplication.com/discord"><img src="https://amplication.com/images/discord_banner_purple.svg" /></a>
+<a href="https://discord.com/invite/drYCpFH75g"><img src="https://amplication.com/images/discord_banner_purple.svg" /></a>
 
 ## Contributors
 
 <!---
-npx contributor-faces --exclude "*bot*" --limit 70 --repo "https://github.com/amplication/amplication"
+npx contributor-faces --exclude "*bot*" --limit 70 --repo "https://github.com/JavaAmazonas/java-amazonas"
 
 change the height and width for each of the contributors from 80 to 50.
 --->
@@ -299,17 +150,4 @@ change the height and width for each of the contributors from 80 to 50.
 
 ## License
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00ffdf&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+My+name+is+Fabio+Brasileiro;I'm+from+Brazil,+Amazonas,+Manaus;I+Studying+software+engineering+;Be+Welcome!+:%29)](https://git.io/typing-svg)
-
-  <details>
- <summary><h3>👨‍💻 Por que é divertido programar?</h3><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> </summary>
-Pela satisfação de construir algo. Da mesma forma que crianças se divertem montando peças de LEGO, adultos se divertem construindo coisas um pouco mais complexas. Geralmente ficamos felizes quando construímos coisas úteis para alguém. Também ficamos felizes quando fazemos atividades não repetitivas, e quando temos aprendizagem constante.
-<details>
- <summary><h4>👨‍💻 Por que programar nem sempre é divertido?</h4><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> </summary>
-"Conhecer as dificuldades inerentes ao trabalho torna mais fácil suportá-las quando elas surgirem."
-
-Na programação, um caractere fora do lugar com certeza irá destruir o seu objetivo de construir o que queria. Simplesmente não irá funcionar. Também, o que construir, dificilmente será definido por você. Em terceiro, você pode ser o melhor programador, mas ainda assim terá que conviver com programas mal projetados, documentação insuficiente e testes inexistentes.
-
-"Logo, programar é um poço de alcatrão. Para muitos, as tristezas superam as alegrias, e caso isso aconteça, o poço de alcatrão irá te sugar cada vez mais pro fundo, sendo cada vez mais difícil sair de lá."
-
- * Referencia do livro <blockquote cite ="https://books.google.com.br/books?id=Yq35BY5Fk3gC&printsec=frontcover&dq=the+mythical+man-month&hl=pt-PT&sa=X&redir_esc=y#v=onepage&q=the%20mythical%20man-month&f=false">
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=54D300&height=120&section=footer"/>
