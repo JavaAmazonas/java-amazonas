@@ -5,7 +5,7 @@
 [![License: GPL 3](https://img.shields.io/badge/license-GPLv3-blue)](https://www.gnu.org/licenses/gpl-3.0.pt-br.html)
 [![Software Livre Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-#### _Read this in [other languages](translations/Translations.md)._
+#### _Mais de milhões de comunidades Java espalhadas pelo mundo [other languages](translations/Translations.md)._
 
 <kbd>[<img title="Shqip" alt="Shqip" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/al.svg" width="22">](translations/README.al.md)</kbd>
 <kbd>[<img title="Armenian" alt="Armenian" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/am.svg" width="22">](translations/README.arm.md)</kbd>
@@ -84,17 +84,14 @@
 <kbd>[<img title="Ewe (TOGO)" alt="Ewe (TOGO)" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/tg.svg" width="22">](translations/README.ewe.md)</kbd>
 <kbd>[<img title="አማርኛ" alt="አማርኛ" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/et.svg" width="22">](translations/README.et.md)</kbd>
 
-<h1 align="center">
-    <a href="https://amplication.com/#gh-light-mode-only">
-    <img src="./.github/assets/amplication-logo-light-mode.svg">
-    </a>
-    <a href="https://amplication.com/#gh-dark-mode-only">
-    <img src="./.github/assets/amplication-logo-dark-mode.svg">
-    </a>
-</h1>
+<div align="center">
+
+  ![java_AM_no_sides](https://github.com/JavaAmazonas/java-amazonas/assets/99563281/32d2c100-29f9-42f1-a49b-58ffcc678dd5)
+
+</div>
 
 <p align="center">
-  <i align="center">Instantly generate production-ready Node.js backend apps 🚀</i>
+  <i align="center">Web site da comunidade Java Amazonas 🚀</i>
 </p>
 
 <h4 align="center">
@@ -121,9 +118,11 @@
 
 
 
-<p align="center">
-    <img src="https://github.com/amplication/amplication/assets/73097785/c7ed2bbc-8954-46a1-a520-91a4711a9320.png" alt="dashboard"/>
-</p>
+<div align="center">
+  
+  ![Captura de tela de 2024-03-31 10-27-10](https://github.com/JavaAmazonas/java-amazonas/assets/99563281/d0b733e3-ba70-43ee-a8d7-a15e91077a9d)
+
+</div>
 
 ## Introduction
 
