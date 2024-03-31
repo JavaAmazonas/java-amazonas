@@ -4,7 +4,7 @@ Software livre
 [![License: GPL 3](https://img.shields.io/badge/license-GPLv3-blue)](https://www.gnu.org/licenses/gpl-3.0.pt-br.html)
 
 
-#### _Mais de 1m Javazeiros espalhadas pelo mundo [other languages](translations/Translations.md). <a href="https://dev.java/community/jugs/">Link</a>
+#### _Mais de 1m Javazeiros espalhados pelo mundo [other languages](translations/Translations.md). <a href="https://dev.java/community/jugs/">Link</a>
 
 <kbd>[<img title="Shqip" alt="Shqip" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/al.svg" width="22">](translations/README.al.md)</kbd>
 <kbd>[<img title="Armenian" alt="Armenian" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/am.svg" width="22">](translations/README.arm.md)</kbd>
