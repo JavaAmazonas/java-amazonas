@@ -125,23 +125,17 @@ Software livre
 
 
 ````
-```
-git clone 
-```
+git clone https://github.com/JavaAmazonas/java-amazonas.git
 ````
 
 
 ````
-```
 npm install
-```
 ````
 
 
 ````
-```
 ng serve 
-```
 ````
 
 
