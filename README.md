@@ -141,7 +141,7 @@ ng serve
 
 Java Amazonas web é um projeto de código livre. Estamos comprometidos com um processo de desenvolvimento totalmente transparente e apreciamos muito qualquer contribuição. Esteja você nos ajudando a corrigir bugs, propondo novos recursos, melhorando nossa documentação ou divulgando - adoraríamos tê-lo como parte da comunidade Java Amazonas.  Consulte nossas... a ideia futuramente criar um blog.
 
-- Relatório de bug: se você vir uma mensagem de erro ou encontrar um problema ao usar o Amplication, crie um [bug report](https://github.com/JavaAmazonas/java-amazonas/issues/new?assignees=&labels=type%3A+bug&template=bug.yaml&title=%F0%9F%90%9B+Bug+Report%3A+).
+- Relatório de bug: se você vir uma mensagem de erro ou encontrar um problema ao usar o site, crie um [bug report](https://github.com/JavaAmazonas/java-amazonas/issues/new?assignees=&labels=type%3A+bug&template=bug.yaml&title=%F0%9F%90%9B+Bug+Report%3A+).
 
 - Solicitação de recurso: se você tiver uma ideia ou se faltar um recurso que tornaria o desenvolvimento mais fácil e robusto, envie uma [feature request](https://github.com/JavaAmazonas/java-amazonas/issues/new?assignees=&labels=type%3A+feature+request&template=feature.yml).
 
