@@ -6,13 +6,14 @@ Software livre
 
 #### _Mais de 1m Javazeiros espalhados pelo mundo [other languages](translations/Translations.md). <a href="https://dev.java/community/jugs/">Link</a>
 
+<kbd>[<img title="English" alt="English" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/gb.svg" width="22">](translations/README.en.md)</kbd>
 <kbd>[<img title="Shqip" alt="Shqip" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/al.svg" width="22">](translations/README.al.md)</kbd>
 <kbd>[<img title="Armenian" alt="Armenian" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/am.svg" width="22">](translations/README.arm.md)</kbd>
 <kbd>[<img title="Uzbek" alt="Uzbek language" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/uz.svg" width="22">](translations/README.uz.md)</kbd>
 <kbd>[<img title="Azərbaycan dili" alt="Azərbaycan dili" src="https://cdn.statically.io/flags/az.svg" width="22">](translations/README.aze.md)</kbd>
 <kbd>[<img title="বাংলা" alt="বাংলা" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/bd.svg" width="22">](translations/README.bn.md)</kbd>
 <kbd>[<img title="Bulgarian" alt="Bulgarian" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/bg.svg" width="22">](translations/README.bg.md)</kbd>
-<kbd>[<img title="Português (Brasil)" alt="Português (Brasil)" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/br.svg" width="22">](translations/README.pt_br.md)</kbd>
+<kbd>[<img title="Português (Brasil)" alt="Português (Brasil)" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/br.svg" width="22">](README.md)</kbd>
 <kbd>[<img title="Català" alt="Català" src="https://firstcontributions.github.io/assets/Readme/catalan1.png" width="22">](translations/README.ca.md)</kbd>
 <kbd>[<img title="中文 (Simplified)" alt="中文 (Simplified)" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/cn.svg" width="22">](translations/README.zh-cn.md)</kbd>
 <kbd>[<img title="Czech" alt="Czech" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/cz.svg" width="22">](translations/README.cs.md)</kbd>
